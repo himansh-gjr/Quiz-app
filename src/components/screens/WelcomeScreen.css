@@ -1,0 +1,21 @@
+.welcome-screen{
+    text-align: center;
+    height: 88vh;
+}
+
+.welcome--input-div{
+    max-width: 300px;
+    margin: auto;
+}
+
+.welcome--btn-div{
+    margin: 2rem;
+}
+
+.app-input{
+    margin-top: 2rem;
+    padding: .8rem;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+}

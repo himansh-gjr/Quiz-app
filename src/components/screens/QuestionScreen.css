@@ -1,0 +1,42 @@
+.questions-screen{
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    height: 70vh;
+}
+
+.question--heading{
+    padding: 1rem;
+}
+
+.question---div{
+    min-width: 50%;
+    height: 300px;
+    margin: auto;
+    height: 90%;
+}
+
+.image--div{
+    width: 100%;
+    height: 80%;
+}
+.question--image{
+    max-width: 450px;
+    max-height: 300px;
+}
+
+
+.options{
+    padding: .5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:350px){
+  
+   .question--image{
+    width:100%;
+    height:auto;
+}
+}
