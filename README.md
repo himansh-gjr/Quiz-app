@@ -1,8 +1,8 @@
 # Quiz App
 
-## [Play the Quiz]()
+## [Play the Quiz](http://himansh-gjr.github.io/Quiz-app)
 
-[backend of the Project]()
+[backend of the Project](https://github.com/himansh-gjr/Quiz-app-backend)
 
 Quiz app front-end with react js
 
