@@ -33,10 +33,10 @@
     justify-content: space-evenly;
 }
 
-@media screen and (max-width:350px){
-  
-   .question--image{
-    width:100%;
-    height:auto;
-}
-}
+
+@media screen and (max-width:500px){
+    .question--image{
+        width: 100%;
+        height: auto;
+    }
+ }

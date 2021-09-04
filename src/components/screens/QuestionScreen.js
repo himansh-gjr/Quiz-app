@@ -1,10 +1,18 @@
 import { useEffect, useState } from "react";
 import Button from "../Button";
-import { QUESTIONS } from "../Data/questions"
+import { ALLQUESTIONS } from "../Data/questions"
 import './QuestionScreen.css'
 import ResultScreen from "./ResultScreen";
 
-function QuestionScreen(){   
+
+const QUESTIONS = []
+
+for(let i = 0;i<5;i++){
+    let ranNum = Math.floor(Math.random() * 19);
+    QUESTIONS.push(ALLQUESTIONS[ranNum])
+}
+
+function QuestionScreen(){  
     const [currQuestion,setCurrQuestion] = useState(0)
     const [errors,setErrors] = useState(0)
     const [time,setTime] = useState({attempedAt: '',finishAt:''})
@@ -14,7 +22,7 @@ function QuestionScreen(){
         let newTime = time
         newTime.attempedAt = new Date()
         setTime(newTime)
-    },[])
+    },[time])
 
     const handleButtonClick = (opt) =>{
 
@@ -32,6 +40,7 @@ function QuestionScreen(){
         else{
             let error = errors + 1
             setErrors(error)
+            alert("Wrong answer..!! try again")
         } 
     }
 

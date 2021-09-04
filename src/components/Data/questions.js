@@ -1,7 +1,22 @@
-export const QUESTIONS = [
+export const ALLQUESTIONS = [
     { id:'1',question:'Name of the animal',options:['Lion','Elephant','Tiger','Cow'],answer:'Lion',image:"https://media.istockphoto.com/vectors/vector-illustration-of-lion-isolated-on-white-background-vector-id1198529588?k=20&m=1198529588&s=612x612&w=0&h=RHoPSVdkRMemw5flvvgCchS0NJPm8WnjDxH0HkaJuco=" },
     { id:'2',question:'Name of the animal',options:['Lion','Elephant','Tiger','Cow'],answer:'Tiger',image:"https://us.123rf.com/450wm/rubynurbaidi/rubynurbaidi1805/rubynurbaidi180500002/100677319-illustration-of-cute-cartoon-tiger-.jpg?ver=6" },
     { id:'3',question:'Name of the animal',options:['Lion','Elephant','Tiger','Cow'],answer:'Elephant',image:"https://image.shutterstock.com/image-vector/cartoon-happy-elephant-260nw-1081567502.jpg" },
     { id:'4',question:'Name of the animal',options:['Lion','Elephant','Tiger','Cow'],answer:'Cow',image:"https://us.123rf.com/450wm/tigatelu/tigatelu1806/tigatelu180600117/102626644-cartoon-happy-cow.jpg?ver=6" },
     { id:'5',question:'Name of the animal',options:['Lion','Elephant','Tiger','Dog'],answer:'Dog',image:"https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/6007/dog-clipart-xl.png" },
-]
+    { id:'6',question:'Name of the animal',options:['Panda','Elephant','Tiger','Dog'],answer:'Panda',image:"https://cdn2.f-cdn.com/contestentries/1218233/27100634/5a4a68b6dcde5_thumb900.jpg" },
+    { id:'7',question:'Name of the animal',options:['Panda','Zebra','Tiger','Dog'],answer:'Zebra',image:"https://image.shutterstock.com/image-vector/cute-zebra-white-background-illustration-260nw-1176568759.jpg" },
+    { id:'8',question:'Name of the animal',options:['Panda','Elephant','Gorilla','Dog'],answer:'Gorilla',image:"https://classroomclipart.com/images/gallery/Clipart/Animals/Gorilla_Clipart/TN_ground-dwelling-gorilla-primate-clipart.jpg" },
+    { id:'9',question:'Name of the animal',options:['Eagle','Elephant','Tiger','Dog'],answer:'Eagle',image:"https://us.123rf.com/450wm/alexeypushkin/alexeypushkin1604/alexeypushkin160400005/55953256-bald-eagle-isolated-on-white-this-illustration-can-be-used-as-a-print-on-t-shirts-tattoo-element-or-.jpg?ver=6" },
+    { id:'10',question:'Name of the animal',options:['Panda','Elephant','Tiger','Snake'],answer:'Snake',image:"https://media.istockphoto.com/vectors/cute-funny-snake-vector-cartoon-reptile-isolated-on-white-background-vector-id1128740486?k=20&m=1128740486&s=612x612&w=0&h=L5qjI89nOrA_5POMFOAzGF_yHOtMZTzSEZqRTaalNg4=" },
+    { id:'11',question:'Name of the animal',options:['Panda','Elephant','Tiger','Penguin'],answer:'Penguin',image:"https://www.kindpng.com/picc/m/78-785762_penguin-illustration-bird-transparent-image-clipart-penguin-clipart.png" },
+    { id:'12',question:'Name of the animal',options:['Panda','Elephant','Tiger','Ostrich'],answer:'Ostrich',image:"https://media.istockphoto.com/vectors/cartoon-ostrich-vector-id477984042?k=20&m=477984042&s=170667a&w=0&h=6-y6uRE0SuLakCaTiVDnjPMqhv8ben6ZT74PzLHWXrU=" },
+    { id:'13',question:'Name of the animal',options:['Panda','Rhinoceros','Tiger','Snake'],answer:'Rhinoceros',image:"https://image.picscut.com/png-clipart/20210511/ourlarge/picscut-rhino-clipart-lovely-cartoon-clip-art-png-image_13398.jpg" },
+    { id:'14',question:'Name of the animal',options:['Panda','Elephant','kangaroo','Snake'],answer:'kangaroo',image:"https://thumbs.dreamstime.com/b/kangaroo-jumps-smiles-white-background-character-169193099.jpg" },
+    { id:'15',question:'Name of the animal',options:['Panda','Fox','Tiger','Snake'],answer:'Fox',image:"https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/6260/fox-clipart-xl.png" },
+    { id:'16',question:'Name of the animal',options:['Bear','Elephant','Tiger','Snake'],answer:'Bear',image:"https://i.pinimg.com/originals/d4/c3/5d/d4c35dcd01774fe95ca32e8fa856bf29.jpg" },
+    { id:'17',question:'Name of the animal',options:['Panda','Elephant','Goat','Snake'],answer:'Goat',image:"https://image.shutterstock.com/image-vector/goat-male-vector-illustration-cartoon-260nw-532364269.jpg" },
+    { id:'18',question:'Name of the animal',options:['Panda','parrot','Tiger','Snake'],answer:'parrot',image:"https://i.pinimg.com/originals/3b/d3/33/3bd333fd54debcd5458b040198e8b8af.png" },
+    { id:'19',question:'Name of the animal',options:['Hippo','Elephant','Tiger','Snake'],answer:'Hippo',image:"https://www.kindpng.com/picc/m/71-714985_transparent-baby-hippo-png-transparent-background-hippo-clipart.png" },
+    { id:'20',question:'Name of the animal',options:['Panda','Elephant','Cat','Snake'],answer:'Cat',image:"https://us.123rf.com/450wm/warawiri/warawiri2005/warawiri200500007/146454550-cat-adorable-and-funny-cartoon-vector-illustration.jpg?ver=6" },
+];

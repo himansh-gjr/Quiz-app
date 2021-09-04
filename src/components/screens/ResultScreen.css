@@ -18,3 +18,8 @@
     margin: .5rem ;
     border-radius: 5px;
 }
+
+.result--container{
+    border: 2px solid #8a7bec;
+    margin-top: 3rem;
+}
